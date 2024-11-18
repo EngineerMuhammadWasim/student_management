@@ -1,0 +1,18 @@
+{
+    "name": "muhammadwasim/student-crud-twig",
+    "description": "Student management system with Create, Read, Update, and Delete functionality, powered by Twig for templating",
+    "autoload": {
+        "psr-4": {
+            "Muhammadwasim\\StudentCrudTwig\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Wasim",
+            "email": "Muhammadwaseem@pitb.gov.pk"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}
