@@ -79,7 +79,7 @@ class StudentController {
         $stmt->bindParam(':email', $this->email);
         $stmt->bindParam(':age', $this->age);
         $stmt->bindParam(':course', $this->course);
-    
+        session_start();
         // Execute the query and return success or failure
         if ($stmt->execute()) {
             $_SESSION['message'] = "Student Created successfully.";
